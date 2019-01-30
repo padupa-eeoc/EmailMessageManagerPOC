@@ -16,7 +16,6 @@ public class MessageProcessingServiceImpl implements MessageProcessingService {
 	private EmailsRepository emailRepository;
 
 	@Override
-	//@Async
 	public void retriveAndSendEmail(Long charSequenceId) {
 		
 		System.out.println("Fetching in database for emailIds with 'charSequenceId': " + charSequenceId);
