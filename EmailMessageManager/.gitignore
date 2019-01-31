@@ -2,3 +2,5 @@
 /.gradle/
 /_classpath.xml
 /_project.xml
+/_gitignore
+/gradle/
