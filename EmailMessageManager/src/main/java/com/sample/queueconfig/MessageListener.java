@@ -18,5 +18,5 @@ public class MessageListener {
 		System.out.println(Thread.currentThread().getName()+": Received Message with Unique CharSequenceId:" + charSequenceId+ "--" + Thread.currentThread().getName());
 		messageProcessingService.retriveAndSendEmail(charSequenceId);
 	}
-
 }
+	
